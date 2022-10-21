@@ -1,0 +1,9 @@
+spring:
+  redis:
+    client-type: lettuce
+    client-name: spring-demo-redis
+    connect-timeout: 10S
+    host: localhost
+    port: 6379
+    username:
+    password:
